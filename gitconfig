@@ -8,3 +8,6 @@
 [core]
 	excludesfile = <global gitignore path>
 	ignorecase = false
+[help]
+        autocorrect = 1
+
