@@ -1,0 +1,10 @@
+[user]
+	name = marianosimone
+	email = marianosimone@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
+[core]
+	excludesfile = <global gitignore path>
+	ignorecase = false
