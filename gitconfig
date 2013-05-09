@@ -6,7 +6,7 @@
 [push]
 	default = simple
 [core]
-	excludesfile = ~/.gitconfig
+	excludesfile = ~/.gitignore
 	ignorecase = false
 [help]
         autocorrect = 1
