@@ -5,6 +5,8 @@
 	ui = true
 [push]
 	default = simple
+[branch]
+    autosetuprebase = always
 [core]
 	excludesfile = ~/.gitignore
 	ignorecase = false
@@ -13,4 +15,3 @@
 
 [help]
         autocorrect = 1
-
