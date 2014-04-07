@@ -1,17 +1,16 @@
 [user]
-	name = Mariano Simone
-	email = marianosimone@gmail.com
+    name = Mariano Simone
+    email = marianosimone@gmail.com
 [color]
-	ui = true
+    ui = true
 [push]
-	default = simple
+    default = simple
 [branch]
     autosetuprebase = always
 [core]
-	excludesfile = ~/.gitignore
-	ignorecase = false
+    excludesfile = ~/.gitignore
+    ignorecase = false
 [branch]
-        autosetuprebase = always
-
+    autosetuprebase = always
 [help]
-        autocorrect = 1
+    autocorrect = 1
