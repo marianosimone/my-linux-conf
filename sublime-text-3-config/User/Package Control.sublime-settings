@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-pep257",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint"
+	]
+}
