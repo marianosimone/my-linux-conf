@@ -5,6 +5,7 @@
 		"SublimeLinter-annotations",
 		"SublimeLinter-pep257",
 		"SublimeLinter-pyflakes",
-		"SublimeLinter-pylint"
+		"SublimeLinter-pylint",
+		"Tag"
 	]
 }
