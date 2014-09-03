@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Keymaps",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-pep257",
