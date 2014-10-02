@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"GitGutter",
 		"Keymaps",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
