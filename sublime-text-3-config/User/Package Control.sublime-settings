@@ -3,6 +3,7 @@
 	[
 		"EditorConfig",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
 		"Keymaps",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
