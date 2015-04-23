@@ -1,10 +1,15 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"EditorConfig",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
 		"Keymaps",
+		"MultiEditUtils",
+		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-pep257",
