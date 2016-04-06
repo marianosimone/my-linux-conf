@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]
+then
+    echo "where do I start?"
+else
+    find $1 -type f -name '.DS_Store' -exec rm {} \;
+fi
