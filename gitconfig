@@ -12,6 +12,8 @@
     branch = true
 [alias]
     logs = log --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset'
+    bio = pull --rebase origin master # Bring It On!
+    commend = commit --amend --no-edit
 [core]
     excludesfile = ~/.gitignore
     ignorecase = false
