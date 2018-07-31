@@ -1,4 +1,10 @@
+# Hidden and tmp files
 .*
-!.gitignore
 *~
+
+# Git
+!.gitignore
+
+# Python
 *.py[co]
+__pycache__
