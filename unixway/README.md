@@ -1,1 +1,1 @@
-A collection of scripts on how to do things in the command line
+A collection of scripts/snippets on how to do things from CLI/code
