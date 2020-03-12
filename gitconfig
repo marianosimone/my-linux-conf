@@ -19,3 +19,5 @@
     ignorecase = false
 [help]
     autocorrect = 1
+[diff]
+	colorMoved = yes
