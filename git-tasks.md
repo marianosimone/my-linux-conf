@@ -43,3 +43,8 @@ git config --global alias.identity '! git config user.name "$(git config user.$1
 ```
 git identity identity_name
 ```
+
+# Find things:
+
+- Find a commit where a particular string is part of the diff: `git log -S "the_content" -p`
+- Optional to the above, by someone: `git log -S "the_content" --author some_username -p`
