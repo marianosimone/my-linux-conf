@@ -25,3 +25,4 @@
     autocorrect = 1
 [diff]
     colorMoved = yes
+    external = difft # See https://github.com/Wilfred/difftastic
