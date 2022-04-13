@@ -8,3 +8,4 @@ Some (mainly) useful unix packages that everyone should install in every box:
 - **[youtube-dl](https://github.com/rg3/youtube-dl)**: download youtube videos from cli
 - **[uncompyler](https://github.com/gstarnberger/uncompyle)**: recover pyton code from .pyc files
 - **[tldr](https://github.com/tldr-pages/tldr)**: A collection of simplified and community-driven man pages.
+- **[hicat](https://github.com/rstacruz/hicat)**: `cat` with syntax highlighting.
