@@ -48,3 +48,4 @@ git identity identity_name
 
 - Find a commit where a particular string is part of the diff: `git log -S "the_content" -p`
 - Optional to the above, by someone: `git log -S "the_content" --author some_username -p`
+- Find the commit where a now-deleted file was deleted: `git rev-list -n 1 HEAD -- <file_path>`
