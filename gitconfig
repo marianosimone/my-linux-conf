@@ -4,6 +4,7 @@
 [color]
     ui = true
 [push]
+    autoSetupRemote = true
     default = simple
 [branch]
     autosetuprebase = always
