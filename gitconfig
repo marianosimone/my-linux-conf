@@ -1,6 +1,7 @@
 [user]
     name = Mariano Simone
     email = marianosimone@gmail.com
+    useConfigOnly = true
 [color]
     ui = true
 [push]
@@ -22,8 +23,11 @@
     excludesfile = ~/.gitignore
     ignorecase = false
     pager = less -F -X
+    editor = nano
 [help]
     autocorrect = 1
 [diff]
     colorMoved = yes
     external = difft # See https://github.com/Wilfred/difftastic
+[feature]
+    manyFiles = 1
