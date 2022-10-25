@@ -1,33 +1,35 @@
 [user]
-    name = Mariano Simone
-    email = marianosimone@gmail.com
-    useConfigOnly = true
+	name = Mariano Simone
+	email = marianosimone@gmail.com
+	useConfigOnly = true
 [color]
-    ui = true
+	ui = true
 [push]
-    autoSetupRemote = true
-    default = simple
+	autoSetupRemote = true
+	default = simple
 [branch]
-    autosetuprebase = always
+	autosetuprebase = always
 [status]
-    short = true
+	short = true
 [alias]
-    logs = log --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset'
-    bio = pull --rebase origin master # Bring It On!
-    commend = commit --amend --no-edit
-    this = show --name-only HEAD
-    superprune = "!superprune(){ echo 'Fetching remote then deleting branches no that are gone. This may take a moment' && git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == \"[gone]\" {sub(\"refs/heads/\", \"\", $1); print $1}'); do git branch -D $branch; done; };superprune"
-    identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; :"
+	logs = log --pretty=format:'%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset'
+	bio = pull --rebase origin master # Bring It On!
+	commend = commit --amend --no-edit
+	this = show --name-only HEAD
+	superprune = "!superprune(){ echo 'Fetching remote then deleting branches no that are gone. This may take a moment' && git fetch -p && for branch in $(git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == \"[gone]\" {sub(\"refs/heads/\", \"\", $1); print $1}'); do git branch -D $branch; done; };superprune"
+	identity = "! git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; :"
 [core]
-    preloadindex = true # http://stackoverflow.com/questions/18257622/why-is-git-core-preloadindex-default-value-false
-    excludesfile = ~/.gitignore
-    ignorecase = false
-    pager = less -F -X
-    editor = nano
+	preloadindex = true # http://stackoverflow.com/questions/18257622/why-is-git-core-preloadindex-default-value-false
+	excludesfile = ~/.gitignore
+	ignorecase = false
+	pager = less -F -X
+	editor = nano
 [help]
-    autocorrect = 1
+	autocorrect = 1
 [diff]
-    colorMoved = yes
-    external = difft # See https://github.com/Wilfred/difftastic
+	colorMoved = yes
+	external = difft # See https://github.com/Wilfred/difftastic
 [feature]
-    manyFiles = 1
+	manyFiles = 1
+[pull]
+	rebase = true
