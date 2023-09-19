@@ -28,7 +28,7 @@
 [help]
 	autocorrect = 1
 [diff]
-	colorMoved = yes
+	colorMoved = dimmed-zebra
 	external = difft # See https://github.com/Wilfred/difftastic
 [feature]
 	manyFiles = 1
